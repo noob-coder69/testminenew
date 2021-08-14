@@ -584,13 +584,13 @@ def loadConfig():
 
         # Format data
         config["Duino-Coin-PC-Miner"] = {
-            "username":         SoulShadow,
-            "efficiency":       97,
-            "threads":          8,
-            "requested_diff":   2,
-            "donate":           0,
-            "identifier":       rig,
-            "algorithm":        1,
+            "username":         username,
+            "efficiency":       efficiency,
+            "threads":          threadcount,
+            "requested_diff":   requested_diff,
+            "donate":           donation_level,
+            "identifier":       rig_identiier,
+            "algorithm":        algorithm,
             "language":         lang,
             "debug":            "n",
             "soc_timeout":      45,
